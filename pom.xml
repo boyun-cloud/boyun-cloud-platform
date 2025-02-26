@@ -11,9 +11,9 @@
         <relativePath/>
     </parent>
     <groupId>com.boyun.cloud</groupId>
-    <artifactId>boyun-smart-platform</artifactId>
+    <artifactId>boyun-cloud-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boyun-smart-platform</name>
+    <name>boyun-cloud-platform</name>
     <packaging>pom</packaging>
     <description>BoyunCloud云服务应用平台</description>
 
@@ -148,17 +148,17 @@
 
     <modules>
         <!--BoyunCloud云服务API服务适配模块-->
-        <module>boyun-robot-boot</module>
+        <module>boyun-cloud-boot</module>
         <!--BoyunCloud云服务API服务接口模块-->
-        <module>boyun-robot-api</module>
+        <module>boyun-cloud-api</module>
         <!--BoyunCloud云服务API服务中心模块-->
-        <module>boyun-robot-center</module>
+        <module>boyun-cloud-center</module>
         <!--BoyunCloud云服务API服务领域模块-->
-        <module>boyun-robot-domain</module>
+        <module>boyun-cloud-domain</module>
         <!--BoyunCloud云服务API服务应用模块-->
-        <module>boyun-robot-web</module>
+        <module>boyun-cloud-web</module>
         <!--BoyunCloud云服务API应用中心模块-->
-        <module>boyun-robot-sphere</module>
+        <module>boyun-cloud-sphere</module>
     </modules>
 
     <profiles>
