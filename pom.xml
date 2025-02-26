@@ -147,8 +147,6 @@
     </distributionManagement>
 
     <modules>
-        <!--BoyunCloud云服务API服务适配模块-->
-        <module>boyun-cloud-boot</module>
         <!--BoyunCloud云服务API服务接口模块-->
         <module>boyun-cloud-api</module>
         <!--BoyunCloud云服务API服务中心模块-->
